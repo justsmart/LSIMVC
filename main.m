@@ -146,7 +146,7 @@ for percentDel = [0.5]
                     end
                     b=fopen(text_name,'a+');
                     %                     fprintf(b,'\n');
-                    fprintf(b,'%d %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f\n',for_count,linshi_indi(1),std_acc,linshi_indi(2),std_nmi,linshi_indi(3),linshi_indi(4),linshi_indi(5),linshi_indi(6),linshi_indi(7),linshi_indi(8),linshi_indi(9),linshi_indi(10),std_pur,lambda,beta,para_r,para_k);
+                    fprintf(b,'%d %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f %4.9f\n',for_count,linshi_indi(1),std_acc,linshi_indi(2),std_nmi,linshi_indi(3),std_pur,linshi_indi(4),linshi_indi(5),linshi_indi(6),linshi_indi(7),linshi_indi(8),linshi_indi(9),linshi_indi(10),lambda,beta,para_r,para_k);
 %                     fprintf(b,'\n');
                     fclose(b);
 
